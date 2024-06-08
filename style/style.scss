@@ -1,0 +1,34 @@
+body {
+  font-family: "Krub", "sans-serif";
+  background-color: black;
+  color: white;
+  height: 100vh;
+}
+
+#name {
+  font-size: 4vw;
+  margin-left: 0.5vw;
+
+  #nameLink {
+    color: rgb(174, 69, 255);
+    text-decoration: none;
+
+    transition: color 0.5s, text-shadow 0.5s;
+
+    &:hover {
+      color: rgb(212, 155, 255);
+      text-shadow: 0 0 5px rgba(255, 255, 255, 0.179);
+    }
+  }
+}
+
+img {
+  width: 25vw;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
