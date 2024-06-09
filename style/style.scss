@@ -1,38 +1,47 @@
 body {
-  font-family: "Krub", "sans-serif";
-  background-color: black;
-  color: white;
+  font-family: "Saira", "sans-serif";
+  background: rgb(252, 247, 255);
+  background: rgb(252, 247, 255);
+  background: rgb(252, 247, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(252, 247, 255, 1) 0%,
+    rgba(253, 244, 255, 1) 43%,
+    rgba(254, 239, 255, 1) 100%
+  );
+  color: rgb(0, 0, 0);
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
 }
 
 header {
-  margin-left: 0.5vw;
-}
-
-nav {
-  font-size: 4vw;
+  padding-left: 1vw;
+  width: 100vw;
 }
 
 ul {
+  font-size: 4vw;
   list-style-type: georgian;
-  margin-left: 5vw;
-  margin-top: 0;
+  margin: 0;
+  padding-left: 5vw;
 }
 
 li {
   a {
     text-decoration: none;
-    transition: color 0.5s, text-shadow 0.5s;
+    transition: color 0.5s;
 
     &:hover {
-      color: rgb(171, 61, 255);
-      text-shadow: 0 0 5px rgba(255, 255, 255, 0.32);
+      color: rgb(184, 90, 255);
     }
   }
 }
 
 a:visited {
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 #name {
@@ -41,11 +50,10 @@ a:visited {
 
   #nameLink {
     text-decoration: none;
-    transition: color 0.5s, text-shadow 0.5s;
+    transition: color 0.5s;
 
     &:hover {
-      color: rgb(171, 61, 255);
-      text-shadow: 0 0 5px rgba(255, 255, 255, 0.32);
+      color: rgb(184, 90, 255);
     }
   }
 }
@@ -55,8 +63,13 @@ img {
 }
 
 main {
+  padding-top: 5vh;
   display: flex;
   flex-direction: column;
+}
+
+#nypl {
+  display: flex;
   justify-content: center;
-  align-items: center;
+  
 }
