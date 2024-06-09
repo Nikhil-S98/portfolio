@@ -5,19 +5,47 @@ body {
   height: 100vh;
 }
 
-#name {
-  font-size: 4vw;
+header {
   margin-left: 0.5vw;
+}
 
-  #nameLink {
-    color: rgb(174, 69, 255);
+nav {
+  font-size: 4vw;
+}
+
+ul {
+  list-style-type: georgian;
+  margin-left: 5vw;
+  margin-top: 0;
+}
+
+li {
+  a {
     text-decoration: none;
-
     transition: color 0.5s, text-shadow 0.5s;
 
     &:hover {
-      color: rgb(212, 155, 255);
-      text-shadow: 0 0 5px rgba(255, 255, 255, 0.179);
+      color: rgb(171, 61, 255);
+      text-shadow: 0 0 5px rgba(255, 255, 255, 0.32);
+    }
+  }
+}
+
+a:visited {
+  color: white;
+}
+
+#name {
+  font-size: 8vw;
+  font-weight: 500;
+
+  #nameLink {
+    text-decoration: none;
+    transition: color 0.5s, text-shadow 0.5s;
+
+    &:hover {
+      color: rgb(171, 61, 255);
+      text-shadow: 0 0 5px rgba(255, 255, 255, 0.32);
     }
   }
 }
